@@ -12,9 +12,9 @@ migrate = Migrate()
 jwt = JWTManager()
 
 api = Api(
-    title='Weather API',
+    title='Flask-RestX API',
     version='1.0',
-    description='Weather Data API',
+    description='Starting poingt for Flask-RestX API',
     authorizations=Config.AUTHORIZATION,
     doc='/api'
 )

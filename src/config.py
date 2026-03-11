@@ -14,10 +14,6 @@ class Config(object):
     BASE_DIR = BASE_DIR
     TEMPLATES_FOLDERS = "src/templates"
 
-    # Directory to export CSV files
-    EXPORT_DIR = BASE_DIR / "export"
-    os.makedirs(EXPORT_DIR, exist_ok=True)
-
     RESTX_MASK_SWAGGER = False
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
